@@ -6,15 +6,15 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name='django-cursor-pagination',
+    name='django-cursor-pagination-dtkav',
     py_modules=['cursor_pagination'],
-    version='0.1.4',
+    version='0.1.7',
     description='Cursor based pagination for Django',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Photocrowd',
-    author_email='devteam@photocrowd.com',
-    url='https://github.com/photocrowd/django-cursor-pagination',
+    author='Photocrowd, dtkav',
+    author_email='me@danielgk.com',
+    url='https://github.com/dtkav/django-cursor-pagination',
     license='BSD',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',

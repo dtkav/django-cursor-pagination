@@ -1,6 +1,13 @@
 Django cursor pagination [![Build Status](https://travis-ci.org/photocrowd/django-cursor-pagination.svg?branch=master)](https://travis-ci.org/photocrowd/django-cursor-pagination)
 ========================
 
+THIS IS A FORK
+========================
+This is a fork of django-cursor-pagination, you probably don't want to use it.
+Try photocrowd/django-cursor-pagination instead.
+
+Original Readme
+========================
 A cursor based pagination system for Django. Instead of refering to specific
 pages by number, we give every item in the queryset a cursor based on its
 ordering values. We then ask for subsequent records by asking for records
